@@ -54,8 +54,8 @@ releases:
   name: local-external-secrets
   values:
   - jx-values.yaml
-- chart: jxgh/jx-kh-check
-  version: 0.0.78
+- chart: jxgh/health-checks-jx
+  version: 0.0.79
   name: health-checks-jx
   values:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
