@@ -20,13 +20,13 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
-    externalDNS: false
+    domain: "2509222d77cb4c38a6ed.eastus.aksapp.io"
+    externalDNS: true
     namespaceSubDomain: -jx.
     tls:
       email: ""
-      enabled: false
-      production: false
+      enabled: true
+      production: true
   repository: bucketrepo
   secretStorage: local
   vault: {}
